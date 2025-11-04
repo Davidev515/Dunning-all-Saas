@@ -5,7 +5,20 @@ import { CampaignCard } from '@/components/campaigns/CampaignCard'
 import { CreateCampaignModal } from '@/components/campaigns/CreateCampaignModal'
 import { DashboardHeader } from '@/components/dashboard/DashboardHeader'
 
-const campaigns = [
+interface Campaign {
+  id: number
+  name: string
+  type: 'whatsapp' | 'email' | 'sms'
+  status: 'active' | 'paused' | 'stopped'
+  sent: number
+  delivered: number
+  recovered: number
+  recoveryRate: number
+  lastSent: string
+  createdAt: string
+}
+
+const campaigns: Campaign[] = [
   {
     id: 1,
     name: 'Cobrança WhatsApp - Cartão Expirado',
