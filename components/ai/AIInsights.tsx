@@ -6,7 +6,7 @@ import {
   ChartBarIcon,
   ClockIcon,
   UserGroupIcon,
-  TrendingUpIcon,
+  ArrowTrendingUpIcon,
   ExclamationTriangleIcon,
 } from '@heroicons/react/24/outline'
 
@@ -25,7 +25,7 @@ const insights = [
     type: 'warning',
     title: 'Canal Subutilizado',
     description: 'WhatsApp tem 40% mais conversão que email',
-    icon: TrendingUpIcon,
+    icon: ArrowTrendingUpIcon,
     impact: 'Médio',
     recommendation: 'Aumentar uso do WhatsApp',
   },
@@ -114,7 +114,7 @@ export function AIInsights() {
         >
           <div className="flex items-center">
             <div className="p-2 bg-success-100 rounded-lg">
-              <TrendingUpIcon className="h-6 w-6 text-success-600" />
+              <ArrowTrendingUpIcon className="h-6 w-6 text-success-600" />
             </div>
             <div className="ml-4">
               <p className="text-sm font-medium text-gray-500">ROI Médio</p>

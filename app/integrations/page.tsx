@@ -5,7 +5,17 @@ import { IntegrationCard } from '@/components/integrations/IntegrationCard'
 import { IntegrationSetup } from '@/components/integrations/IntegrationSetup'
 import { DashboardHeader } from '@/components/dashboard/DashboardHeader'
 
-const integrations = [
+interface Integration {
+  id: string
+  name: string
+  description: string
+  logo: string
+  status: 'connected' | 'not_connected'
+  features: string[]
+  setupTime: string
+}
+
+const integrations: Integration[] = [
   {
     id: 'stripe',
     name: 'Stripe',

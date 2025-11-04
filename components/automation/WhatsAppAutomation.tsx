@@ -362,7 +362,7 @@ export function WhatsAppAutomation() {
                       placeholder="Digite sua mensagem..."
                     />
                     <p className="text-xs text-gray-500 mt-1">
-                      Use variáveis: {`{nome}`, `{valor}`, `{link_pagamento}`}
+                      Use variáveis: {'{nome}'}, {'{valor}'}, {'{link_pagamento}'}
                     </p>
                   </div>
                   

@@ -322,7 +322,7 @@ export function MessageOptimization() {
                 ⚠️ Evite Estes Erros
               </h4>
               <ul className="text-sm text-warning-700 space-y-1">
-                <li>• Mensagens muito longas (SMS > 160 chars)</li>
+                <li>• Mensagens muito longas (SMS {'>'} 160 chars)</li>
                 <li>• Tom muito formal no WhatsApp</li>
                 <li>• Falta de call-to-action claro</li>
                 <li>• Não definir prazo de ação</li>

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ClockIcon, CalendarIcon, TrendingUpIcon } from '@heroicons/react/24/outline'
+import { ClockIcon, CalendarIcon, ArrowTrendingUpIcon } from '@heroicons/react/24/outline'
 import {
   LineChart,
   Line,
@@ -126,7 +126,7 @@ export function OptimalTiming() {
               </div>
               
               <div className="flex items-center space-x-2">
-                <TrendingUpIcon className="h-5 w-5 text-warning-600" />
+                <ArrowTrendingUpIcon className="h-5 w-5 text-warning-600" />
                 <div>
                   <div className="text-sm font-medium text-gray-900">
                     Taxa de Resposta

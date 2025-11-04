@@ -1,7 +1,7 @@
 'use client'
 
-import { motion } from 'framer-motion'
 import { CheckCircleIcon, ClockIcon, PlusIcon } from '@heroicons/react/24/outline'
+import { motion } from 'framer-motion'
 
 interface Integration {
   id: string
@@ -42,7 +42,7 @@ export function IntegrationCard({ integration, onConnect }: IntegrationCardProps
             <p className="text-sm text-gray-500">{integration.description}</p>
           </div>
         </div>
-        
+
         <div className="flex items-center space-x-2">
           {isConnected ? (
             <div className="flex items-center text-success-600">
@@ -63,7 +63,7 @@ export function IntegrationCard({ integration, onConnect }: IntegrationCardProps
           <ClockIcon className="h-4 w-4 mr-1" />
           <span>Setup em {integration.setupTime}</span>
         </div>
-        
+
         <div className="space-y-2">
           <h4 className="text-sm font-medium text-gray-900">Recursos:</h4>
           <div className="flex flex-wrap gap-2">

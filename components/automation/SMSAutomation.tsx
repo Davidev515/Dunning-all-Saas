@@ -450,7 +450,7 @@ export function SMSAutomation() {
                       maxLength={160}
                     />
                     <p className="text-xs text-gray-500 mt-1">
-                      Use variáveis: {`{nome}`, `{valor}`, `{link_pagamento}`} • Máximo 160 caracteres
+                      Use variáveis: {'{nome}'}, {'{valor}'}, {'{link_pagamento}'} • Máximo 160 caracteres
                     </p>
                   </div>
                   
