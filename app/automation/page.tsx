@@ -5,7 +5,7 @@ import { AutomationDashboard } from '@/components/automation/AutomationDashboard
 import { WhatsAppAutomation } from '@/components/automation/WhatsAppAutomation'
 import { EmailAutomation } from '@/components/automation/EmailAutomation'
 import { SMSAutomation } from '@/components/automation/SMSAutomation'
-import { Header } from '@/components/dashboard/DashboardHeader'
+import { DashboardHeader } from '@/components/dashboard/DashboardHeader'
 
 export default function AutomationPage() {
   const [activeTab, setActiveTab] = useState('dashboard')
@@ -21,7 +21,7 @@ export default function AutomationPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
+      <DashboardHeader />
       
       <main className="py-6">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

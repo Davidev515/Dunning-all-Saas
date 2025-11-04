@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { CampaignCard } from '@/components/campaigns/CampaignCard'
 import { CreateCampaignModal } from '@/components/campaigns/CreateCampaignModal'
-import { Header } from '@/components/dashboard/DashboardHeader'
+import { DashboardHeader } from '@/components/dashboard/DashboardHeader'
 
 const campaigns = [
   {
@@ -67,7 +67,7 @@ export default function CampaignsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
+      <DashboardHeader />
       
       <main className="py-6">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

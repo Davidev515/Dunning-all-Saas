@@ -5,7 +5,7 @@ import { AIInsights } from '@/components/ai/AIInsights'
 import { CustomerBehavior } from '@/components/ai/CustomerBehavior'
 import { OptimalTiming } from '@/components/ai/OptimalTiming'
 import { MessageOptimization } from '@/components/ai/MessageOptimization'
-import { Header } from '@/components/dashboard/DashboardHeader'
+import { DashboardHeader } from '@/components/dashboard/DashboardHeader'
 
 export default function AIAnalysisPage() {
   const [activeTab, setActiveTab] = useState('insights')
@@ -21,7 +21,7 @@ export default function AIAnalysisPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
+      <DashboardHeader />
       
       <main className="py-6">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

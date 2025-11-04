@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { IntegrationCard } from '@/components/integrations/IntegrationCard'
 import { IntegrationSetup } from '@/components/integrations/IntegrationSetup'
-import { Header } from '@/components/dashboard/DashboardHeader'
+import { DashboardHeader } from '@/components/dashboard/DashboardHeader'
 
 const integrations = [
   {
@@ -49,7 +49,7 @@ export default function IntegrationsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
+      <DashboardHeader />
       
       <main className="py-6">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
