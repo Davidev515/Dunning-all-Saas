@@ -190,3 +190,4 @@ Adicione ao seu `settings.json`:
 **Última atualização:** Dezembro 2024
 
 
+

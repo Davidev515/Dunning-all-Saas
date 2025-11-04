@@ -183,3 +183,4 @@ echo ""
 info "Documentação completa disponível em: SETUP_LOCAL.md"
 echo ""
 
+

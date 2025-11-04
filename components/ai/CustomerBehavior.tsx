@@ -5,7 +5,6 @@ import {
   UserGroupIcon,
   ClockIcon,
   DevicePhoneMobileIcon,
-  EnvelopeIcon,
   ChatBubbleLeftRightIcon,
 } from '@heroicons/react/24/outline'
 import {
@@ -108,7 +107,7 @@ export function CustomerBehavior() {
                 {segment.riskLevel}
               </span>
             </div>
-            
+
             <div className="space-y-3">
               <div className="flex justify-between">
                 <span className="text-sm text-gray-600">Clientes</span>
@@ -248,7 +247,7 @@ export function CustomerBehavior() {
                 </p>
               </div>
             </div>
-            
+
             <div className="flex items-start space-x-3">
               <div className="p-2 bg-warning-100 rounded-lg">
                 <ClockIcon className="h-5 w-5 text-warning-600" />
@@ -261,7 +260,7 @@ export function CustomerBehavior() {
               </div>
             </div>
           </div>
-          
+
           <div className="space-y-4">
             <div className="flex items-start space-x-3">
               <div className="p-2 bg-primary-100 rounded-lg">
@@ -274,7 +273,7 @@ export function CustomerBehavior() {
                 </p>
               </div>
             </div>
-            
+
             <div className="flex items-start space-x-3">
               <div className="p-2 bg-danger-100 rounded-lg">
                 <DevicePhoneMobileIcon className="h-5 w-5 text-danger-600" />
